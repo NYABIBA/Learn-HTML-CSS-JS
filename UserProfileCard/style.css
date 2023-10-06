@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+
+.container{
+    width: 600px;
+}
+
+.gradiant{
+    height: 200px;
+    background: aqua;
+    margin-top: 100px;
+    border-radius: 4px 4px 0 0;
+}
+
+.profile-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.profile-down img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: -75px;
+    padding: 5px;
+    
+}
+
+.profile-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.profile-description{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+a{
+    height: 100px;
+    width: 200px;
+    border-radius: 50px;
+    text-decoration: none;
+    background: aqua;
+    color: black;
+    padding: 30px;
+    
+    
+      
+}
